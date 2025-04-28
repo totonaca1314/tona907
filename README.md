@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dispositivo de Giro para Pacientes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dispositivo ergonómico para girar pacientes postrados. Facilita el cuidado en casa o en clínicas. Envíos a todo México.">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .hook {
+      font-size: 18px;
+      font-weight: bold;
+      color: #27ae60;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    h2 {
+      color: #34495e;
+    }
+    p, ul {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .price {
+      font-size: 22px;
+      color: #e74c3c;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .cta-button {
+      display: block;
+      text-align: center;
+      background-color: #27ae60;
+      color: white;
+      padding: 15px;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      margin-top: 25px;
+    }
+    .cta-button:hover {
+      background-color: #219150;
+    }
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      margin-top: 30px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+      animation: pulse 2s infinite;
+    }
+    .whatsapp-float img {
+      width: 35px;
+      height: 35px;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="hook">El secreto de los cuidadores profesionales, ahora en tus manos.</p>
+    <h1>🛏️ Dispositivo de Giro para Pacientes</h1>
+    <img src="https://i.postimg.cc/Yq74Qksy/C7109-FE-5-E7-D-4-CA0-BB9-E-46-F4-FD5-E0-B23.jpg" alt="Demostración del dispositivo de giro para pacientes">
+    <h2>✅ Ideal para:</h2>
+    <ul>
+      <li>Pacientes postrados o con movilidad reducida</li>
+      <li>Personas mayores con necesidades de cuidado especial</li>
+      <li>Uso doméstico o en clínicas</li>
+    </ul>
+    <h2>🔧 Características destacadas:</h2>
+    <ul>
+      <li>Material resistente al agua, fácil de limpiar</li>
+      <li>Diseño ergonómico en forma de U</li>
+      <li>Facilita el cambio de posición y limpieza del paciente</li>
+      <li>Reduce el riesgo de escaras y lesiones por presión</li>
+    </ul>
+    <p class="price">💰 Precio: $399 MXN</p>
+    <p>🚚 Envío a todo México con paquetería segura</p>
+    <a class="cta-button" href="https://wa.me/525528584334?text=Hola%2C%20me%20interesa%20el%20dispositivo%20de%20giro%20para%20pacientes.%20%C2%BFEst%C3%A1%20disponible%3F" target="_blank">
+      📲 ¡Ordena por WhatsApp ahora!
+    </a>
+    <p class="footer">¿Tienes preguntas? Contáctanos con confianza. Estamos para ayudarte.</p>
+  </div>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="whatsapp-float" href="https://wa.me/525528584334?text=Hola%2C%20me%20interesa%20el%20dispositivo%20de%20giro%20para%20pacientes.%20%C2%BFEst%C3%A1%20disponible%3F" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+</body>
+</html>
